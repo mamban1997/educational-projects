@@ -4,3 +4,5 @@
 Задача была решена 2мя способами. Первый - корпус текстов был лемматизирован и векторизован (TF-IDF), предсказание осуществлялось логистической регрессией. Второй - корпус текстов был токенизирован и при помощи предобученной модели BERT из него были выделены ембендинги фраз. Предсказание также осуществлялось логистической регрессией. Лучший результат определения токсичных комментариев на тестовой выборке F1_score - 0,77.
 
 *Используемые библиотеки*: pandas, numpy, sklearn, lightgbm, NLTK, BERT (transformers и PyTorch )
+
+Альтернативная ссыка на ноутбук: https://nbviewer.jupyter.org/github/mamban1997/educational-projects/blob/main/Classification_of_positive_and_negative_comments/Classification_of_positive_and_negative_comments.ipynb
